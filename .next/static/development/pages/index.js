@@ -4384,27 +4384,11 @@ function Index() {
       lineNumber: 7,
       columnNumber: 13
     }
-  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
+  }), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    title: "About Page",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 17
-    }
-  }, "About Page")), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
       columnNumber: 13
     }
   }, "Hello Next.js"));

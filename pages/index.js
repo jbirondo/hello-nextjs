@@ -5,9 +5,6 @@ export default function Index() {
     return (
         <div>
             <Header/>
-            <Link href="/about">
-                <a title="About Page">About Page</a>
-            </Link>
             <p>Hello Next.js</p>
         </div>
     );
