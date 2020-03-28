@@ -1950,7 +1950,7 @@ const Index = props => __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_1__["
 Index.getInitialProps = async function () {
   const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()("https://api.tvmaze.com/search/shows?q=batman");
   const data = await res.json();
-  console.log(`Show data fetched. Count: ${data}`);
+  console.log(`Show data fetched. Count: ${data.length}`);
   return {
     shows: data.map(entry => entry.show)
   };
